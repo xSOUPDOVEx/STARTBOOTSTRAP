@@ -1,0 +1,52 @@
+ol {
+    font-family: "Segoe UI";
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-block {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;
+}
+
+.center-wrapper {
+  max-width: 800px;       
+  margin: 0 auto;         
+  padding: 20px;          
+  text-align: left;       
+}
+
+.photo-size {
+    width: 600px;
+    border-radius: 30px;
+}
+
+body {
+    background-image: url("./images/cutting_board_backaground.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+li {
+    font-weight: bold;
+    color: black;
+}
+
+.right-text {
+    display: block;
+    text-align: right;
+}
+
+.center {
+    margin-left: 80px;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+  }
